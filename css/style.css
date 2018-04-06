@@ -18,7 +18,7 @@ body{
 
 
 #characterSelect{
-	width: 50vw;
+	min-width: 1230px;
 	height: 100%;
 	margin: auto;
 	display: grid;
@@ -60,7 +60,7 @@ body{
 
 #charHolder_pattern{
 	display: grid;
-	grid-template: 150px 150px / 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template: 200px 200px / 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .charThumbnail{
@@ -77,8 +77,8 @@ body{
 	align-items: center;
 }
 #playerData .container{
-	height: 80%;
-	width: 80%;
+	height: 90%;
+	width: 55.5%;
 	background: green;
 	border-radius: 11px;
 	background-image: url(../assets/icons/cardBg.png);
