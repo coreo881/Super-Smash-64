@@ -1,0 +1,46 @@
+<div id="header_pattern">
+	<div>
+		<h1>1PlayerGame</h1>
+	</div>
+	<div>
+		<button><i>left time arrow icon</i></button>
+		<h2>TIME: {{ minuteCounter }}</h2>
+		<button><i>right time arrow icon</i></button>
+	</div>
+	<div>
+		<p><i>left arrow icon</i><i>left arrow icon</i>&nbsp;BACK</p>
+	</div>
+</div>
+
+<div id="charHolder_pattern">
+	<char-thumb v:for='char in characterData' :cdata='char' :id='char.name' :style="char.imageCSS" :key='char.key'></char-thumb>
+</div>
+
+<div class="charThumbnail">
+	<h2>{{ cdata.name }}</h2>
+</div>
+
+
+<div id="playerCard_pattern">
+	<div class="container">
+		<div id="playerText">
+			<h1>1P</h1>
+		</div>
+		<div id="stage">
+			<div>Hello!</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="options_pattern">
+	<div id="options_text">
+		
+	</div>
+	<div id="options_sliders">
+		
+	</div>
+	<div id="options_score">
+		
+	</div>
+</div>
